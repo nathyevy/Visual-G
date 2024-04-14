@@ -1,0 +1,53 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : Uma calculadora simples com sistema de repetição
+// Autor(a)    : Marcelo
+// Data atual  : 04/01/2024
+Var
+   // Seção de Declarações das variáveis
+   n1 , n2 , resultado :real
+   operacao , rep : inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   repita
+      escreval ("Primeiro número:")
+      leia (n1)
+      escreval ("Segundo número:")
+      leia (n2)
+
+      escreval ("Escolha a operação:")
+      escreval ("1 - Adição")
+      escreval ("2 - Subtração")
+      escreval ("3 - Multiplicação")
+      escreval ("4 - Divisão")
+      escreval ("5 - Potência")
+      leia (operacao)
+
+      escolha (operacao)
+      caso 1
+         resultado <- n1 + n2
+         escreval ("O resultado é: " , resultado)
+      caso 2
+         resultado <- n1 - n2
+         escreval ("O resultado é: " , resultado)
+      caso 3
+         resultado <- n1 * n2
+         escreval ("O resultado é: " , resultado)
+      caso 4
+         resultado <- n1 / n2
+         escreval ("O resultado é: " , resultado)
+      caso 5
+         resultado <- n1 ^ n2
+         escreval ("O resultado é: " , resultado)
+      outrocaso
+         escreval ("Operação inválida")
+      fimescolha
+
+      escreval ("Deseja repetir?")
+      escreval ("Digite 1 para sim")
+      escreval ("Digite 2 para não")
+      leia (rep)
+
+      ate (rep = 2)
+
+Fimalgoritmo
