@@ -14,7 +14,7 @@ Inicio
       leia (n1)
       escreval ("Segundo número:")
       leia (n2)
-
+   // Aqui é escolhido a operação
       escreval ("Escolha a operação:")
       escreval ("1 - Adição")
       escreval ("2 - Subtração")
