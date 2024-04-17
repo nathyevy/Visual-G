@@ -4,7 +4,7 @@ codigo, quantidade: inteiro
 valor_final: real
 inicio
  escreval("Cardápio da Lanchonete:")
- escreval("| código do item | Especificação | Preço Unitário |")
+ escreval("| Código do item | Especificação | Preço Unitário |")
  escreval("|----------------|---------------|----------------|")
  escreval(" 100             |Cachorro quente| 7,00           |")
  escreval(" 101             |Bauru          | 8,00           |")
@@ -20,16 +20,16 @@ inicio
  leia(quantidade)
  escolha(codigo)
    caso 100
-        escreval ("o valor do seu pedido é:", quantidade * 7)
+        escreval ("O valor do seu pedido é:", quantidade * 7)
    caso 101
-        escreval ("o valor do seu pedido é:", quantidade * 8)
+        escreval ("O valor do seu pedido é:", quantidade * 8)
    caso 102
-        escreval ("o valor do seu pedido é:", quantidade * 9)
+        escreval ("O valor do seu pedido é:", quantidade * 9)
    caso 103
-        escreval ("o valor do seu pedido é:", quantidade * 10)
+        escreval ("O valor do seu pedido é:", quantidade * 10)
    caso 104
-        escreval ("o valor do seu pedido é:", quantidade * 3)
+        escreval ("O valor do seu pedido é:", quantidade * 3)
    outrocaso
-        escreval("Código inválido! digite novamente.")
+        escreval("Código inválido! Digite novamente.")
  fimescolha
 fimalgoritmo
